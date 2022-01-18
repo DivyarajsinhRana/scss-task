@@ -1,7 +1,6 @@
 @import './mixin.scss';
 .cardDiv{
-    display: grid;
-    grid-template-columns: 350px 300px;
+    @include gridProps(350px,300px);
     place-items: center;
     margin-top: 50px;
     width: 40vw;
@@ -19,7 +18,7 @@
     border-radius: 50px;
 }
 .imageDiv{
-    border: 1px solid purple;
+    border: 1px solid blue;
     border-radius: 50px;
  }
  .cd12{
@@ -31,3 +30,18 @@
    #view{
      @include viewbtnStyle
    }
+   @media only screen and (min-width : 0px) and (max-width : 576px){
+    .cardDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageDiv{
+        height: 200px;
+        width: 300px;
+        border: none;
+    }
+    .image{
+        // display: none;
+        position: static;
+    }
+  }

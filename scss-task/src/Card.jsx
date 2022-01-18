@@ -7,7 +7,6 @@ const Card = ({ image, title, name, description }) => {
             </div>
             <div>
                 <div>
-
                     <h3>{title}</h3>
                     <button>{name}</button>
                 </div>

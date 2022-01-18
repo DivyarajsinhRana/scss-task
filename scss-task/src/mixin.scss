@@ -1,21 +1,24 @@
+$color : blue;
 @mixin labelBtnProps {
-    background-color: rgba(0, 195, 255,0.5);
+    background-color: rgba(0, 195, 255,0.9);
     border: none;
     color: white;
 }
 @mixin btnDiv {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
 }
 @mixin sharebtnStyle {
-    background-color: purple;
+    background-color: $color;
     border-radius: 10px;
 }
 @mixin viewbtnStyle {
-    border: 1px solid purple;
+    border: 1px solid $color;
     border-radius: 10px;
     background-color: white;
-    color: purple;
-    
+    color: $color;
+    margin-left: 10px;
+}
+@mixin gridProps($para1,$para2) {
+    display: grid;
+    grid-template-columns: $para1 $para2;
 }

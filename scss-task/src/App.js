@@ -7,10 +7,10 @@ const App = () => {
   console.log("data>>>",data);
   return (
     <div className={styles.main}>
-      <div>
+      <div className={styles.header}>
       <h1>3D Simulations</h1>
-      <pre>Enhance your teaching and engage your students with <br />
-        cutting edge 3D Simulations -all at zero cost to you!</pre>
+      <p>Enhance your teaching and engage your students with 
+        cutting edge 3D Simulations -all at zero cost to you!</p>
       </div>
       <img src="https://www.genome.gov/sites/default/files/media/images/2020-08/DNA_dynamic2020-01.jpg" alt="" className={styles.image} />
       <div className={styles.childDiv1}>
@@ -30,7 +30,7 @@ const App = () => {
         <p>Understand the semi-conservative<br/>mechanism of replication,the functions of <br/>the enzymes that play a rolw in the process.</p>
       </div>
         </div>
-      <div >
+      <div className={styles.card1}>
         {
           data.map((item,index)=>{
             return(

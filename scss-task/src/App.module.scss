@@ -5,6 +5,11 @@
   height: 100vh;
   flex-direction: column;
 }
+.header{
+  p{
+    width: 400px;
+  }
+}
 .image{
   border: 0px solid black;
   border-radius: 40px;
@@ -12,8 +17,7 @@
   width: 40vw;
 }
 .childDiv1{
-  display: grid;
-  grid-template-columns: 100px 400px;
+  @include gridProps(100px,400px);
   button {
   @include labelBtnProps;
   }
@@ -33,4 +37,30 @@
 }
 .card{
   margin-top: 100px;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 576px){
+  .childDiv1{
+    display: none;
+  }
+  .image{
+    display: none;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+      width: 250px;
+    }
+  }
+  .card{
+    margin-top: 0px;
+  }
+  .main{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
