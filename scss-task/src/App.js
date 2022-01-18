@@ -1,12 +1,15 @@
 import styles from './App.module.scss'
 import Card from './Card'
+import { data } from './data'
+
 const App = () => {
+  console.log("data>>>",data);
   return (
     <div className={styles.main}>
       <div>
       <h1>3D Simulations</h1>
-      <p><pre>Enhance your teaching and engage your students with <br />
-        cutting edge 3D Simulations -all at zero cost to you!</pre></p>
+      <pre>Enhance your teaching and engage your students with <br />
+        cutting edge 3D Simulations -all at zero cost to you!</pre>
       </div>
       <img src="https://www.genome.gov/sites/default/files/media/images/2020-08/DNA_dynamic2020-01.jpg" alt="" className={styles.image} />
       <div className={styles.childDiv1}>
@@ -27,9 +30,13 @@ const App = () => {
       </div>
         </div>
       <div>
-        <Card />
-        <Card />
-        <Card />
+        {
+          data.map((item,index)=>{
+            return(
+              <Card key={index} image={item.image} name={item.name} title={item.title}/>
+            )
+          })
+        }
       </div>
     
     </div>
