@@ -2,6 +2,7 @@ import styles from './App.module.scss'
 import Card from './Card'
 import { data } from './data'
 
+
 const App = () => {
   console.log("data>>>",data);
   return (
@@ -29,11 +30,13 @@ const App = () => {
         <p>Understand the semi-conservative<br/>mechanism of replication,the functions of <br/>the enzymes that play a rolw in the process.</p>
       </div>
         </div>
-      <div>
+      <div >
         {
           data.map((item,index)=>{
             return(
-              <Card key={index} image={item.image} name={item.name} title={item.title}/>
+              <div key={index} className={styles.card}>
+                <Card  image={item.image} name={item.name} title={item.title} description={item.description}/>
+              </div>
             )
           })
         }

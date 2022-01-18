@@ -1,0 +1,21 @@
+@mixin labelBtnProps {
+    background-color: rgba(0, 195, 255,0.5);
+    border: none;
+    color: white;
+}
+@mixin btnDiv {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+@mixin sharebtnStyle {
+    background-color: purple;
+    border-radius: 10px;
+}
+@mixin viewbtnStyle {
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: white;
+    color: purple;
+    
+}

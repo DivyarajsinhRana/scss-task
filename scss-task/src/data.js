@@ -1,17 +1,20 @@
 export const data = [{
-    image:"https://www.pngkit.com/png/detail/326-3267989_eukaryotic-cell-eukaryotic-cell-png.png",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqrcmxfmgr3sVJb0gwpE3XV4IZB5CjBf-OfjHj8einQWyc8bjwklfQWea_n6-KDXzMhQ&usqp=CAU",
     title:"Eukaryotic Cell",
-    name:"lorem-ipsum"
+    name:"lorem-ipsum",
+    description:"Unnderstand what are eukaryotic cell.Understands the impoetannce of the cell  organalias presend in these cell "
 
 },
 {
-    image:"https://miro.medium.com/max/1044/0*c_5KCnFq-zHcpV3B.png",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqrcmxfmgr3sVJb0gwpE3XV4IZB5CjBf-OfjHj8einQWyc8bjwklfQWea_n6-KDXzMhQ&usqp=CAU",
     title:"Projectile Motion",
-    name:"lorem-ipsum"
+    name:"lorem-ipsum",
+    description:"Unnderstand what are eukaryotic cell.Understands the impoetannce of the cell  organalias presend in these cell "
 
 },
 {
-    image:"https://image.shutterstock.com/image-illustration/single-strand-ribonucleic-acid-rna-260nw-1094792225.jpg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqrcmxfmgr3sVJb0gwpE3XV4IZB5CjBf-OfjHj8einQWyc8bjwklfQWea_n6-KDXzMhQ&usqp=CAU",
     title:"RNA & Transciption",
-    name:"lorem-ipsum"
+    name:"lorem-ipsum",
+    description:"Unnderstand what are eukaryotic cell.Understands the impoetannce of the cell  organalias presend in these cell "
 }]

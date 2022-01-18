@@ -1,0 +1,33 @@
+@import './mixin.scss';
+.cardDiv{
+    display: grid;
+    grid-template-columns: 350px 300px;
+    place-items: center;
+    margin-top: 50px;
+    width: 40vw;
+    button {
+        @include labelBtnProps;
+        }
+}
+.image{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    right: 70px;
+    border: 0px solid black;
+    border-radius: 50px;
+}
+.imageDiv{
+    border: 1px solid purple;
+    border-radius: 50px;
+ }
+ .cd12{
+    @include btnDiv;
+   }
+   #share{
+    @include sharebtnStyle
+   }
+   #view{
+     @include viewbtnStyle
+   }
