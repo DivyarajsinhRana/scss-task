@@ -1,0 +1,40 @@
+.main{
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.image{
+  border: 0px solid black;
+  border-radius: 40px;
+  height: 35vh;
+  width: 40vw;
+}
+.childDiv1{
+  display: grid;
+  grid-template-columns: 100px 400px;
+  button {
+    background-color: rgba(0, 195, 255,0.5);
+    border: none;
+    color: white;
+  }
+}
+
+.cd12{
+  display: flex;
+  justify-content: space-between;
+}
+#share{
+  background-color: purple;
+  border-radius: 10px;
+}
+#view{
+  border: 1px solid purple;
+  border-radius: 10px;
+  background-color: white;
+  color: purple;
+}
+.cd13{
+ margin-left: 100px;
+}
