@@ -32,8 +32,11 @@
    }
    @media only screen and (min-width : 0px) and (max-width : 576px){
     .cardDiv{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        place-items: center;
+         
     }
     .imageDiv{
         height: 200px;
@@ -44,4 +47,5 @@
         // display: none;
         position: static;
     }
+    
   }

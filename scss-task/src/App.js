@@ -27,7 +27,7 @@ const App = () => {
         </div>
       </div>
       <div className={styles.cd13}>
-        <p>Understand the semi-conservative<br/>mechanism of replication,the functions of <br/>the enzymes that play a rolw in the process.</p>
+        <p>Understand the semi-conservative mechanism of replication,the functions of the enzymes that play a rolw in the process.</p>
       </div>
         </div>
       <div className={styles.card1}>

@@ -5,7 +5,7 @@ const Card = ({ image, title, name, description }) => {
             <div className={styles.imageDiv}>
                 <img src={image} alt="" className={styles.image} />
             </div>
-            <div>
+            <div className={styles.cardDescription}>
                 <div>
                     <h3>{title}</h3>
                     <button>{name}</button>
